@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable atom-browser': 'atom-browser:toggle'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'atom-browser'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'atom-browser:toggle' }
+      ]
+    ]
+  }
+]
