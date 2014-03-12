@@ -7,5 +7,6 @@
 
 # For more detailed documentation see
 # https://atom.io/docs/latest/advanced/keymaps
-'.workspace':
-  'ctrl-alt-w': 'atom-browser:toggle'
+'.workspace .editor:not(.mini)':
+  'ctrl-q': 'atom-browser:left'
+  'ctrl-w': 'atom-browser:right'
